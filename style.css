@@ -29,7 +29,7 @@ html {
 .historico {
     height: 400px;
     width: 821px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .conjunto {
     display: flex;
@@ -49,6 +49,7 @@ html {
     padding: 6px;
     background-color: #ffffff;
     margin-bottom: 0;
+    overflow-wrap: anywhere;
 }
 .edit {
     width: 47px;
