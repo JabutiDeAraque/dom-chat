@@ -1,0 +1,99 @@
+html {
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+}
+.fundo {
+    width: 827px;
+    height: 664px;
+    background-color: #f0f0f0;
+    border: black 1px solid;
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+.cabecalho {
+    width: 821px;
+    height: 68px;
+    background-color: #C4C4C4;
+    border: black 1px solid;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    padding-left: 6px;
+}
+.historico {
+    height: 400px;
+    width: 821px;
+    overflow-y: scroll;
+}
+.conjunto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bots {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+.caixa {
+    width: 777px;
+    height: auto;
+    min-height: 62px;
+    border: solid 1px black;
+    padding: 6px;
+    background-color: #ffffff;
+    margin-bottom: 0;
+}
+.edit {
+    width: 47px;
+    height: 26px;
+    background-color: #F6A75D;
+    border: none;
+    cursor: pointer;
+}
+.edit:hover {
+    background-color: #f5c598;
+}
+.exclude {
+    width: 52px;
+    height: 26px;
+    background-color: #F65D5D;
+    border: none;
+    cursor: pointer;
+}
+.exclude:hover {
+    background-color: #f58d8d;
+}
+.mensagem {
+    width: 609px;
+    height: 170px;
+    background-color: #C4C4C4;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.msg {
+    width: 502px;
+    height: 150px;
+}
+
+.send {
+    width: 70px;
+    height: 36px;
+    color: #f0f0f0;
+    background-color: #0066CC;
+    border-radius: 12px;
+    border: none;
+    margin: 0px 0px 107px 9px;
+    cursor: pointer;
+}
+.send:hover {
+    background-color: #4089d1;
+}
